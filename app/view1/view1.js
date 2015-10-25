@@ -9,6 +9,17 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
+.directive('formsEmail', [function() {
+    return {
+        templateUrl: 'partials/forms/email.html'
+    };
+}])
+.directive('formsName', [function() {
+    return {
+        templateUrl: 'partials/forms/name.html'
+    };
+}])
+
 .controller('View1Ctrl', [function() {
 
 }]);
